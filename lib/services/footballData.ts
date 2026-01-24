@@ -3,7 +3,7 @@
 
 import { mockMatches, Match, MatchStatus, League } from '@/lib/mockData';
 
-const BACKEND_URL = 'http://localhost:5001/api';
+const BACKEND_URL = '/api';
 
 interface ApiMatch {
     id: number;
