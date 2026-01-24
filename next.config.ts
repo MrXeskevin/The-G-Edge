@@ -10,14 +10,7 @@ const nextConfig: NextConfig = {
             },
         ],
     },
-    experimental: {
-        // @ts-expect-error - allowedDevOrigins is valid but missing from NextConfig types in this version
-        allowedDevOrigins: [
-            'localhost:3000',
-            '192.168.1.108:3000',
-            '192.168.1.108'
-        ],
-    },
+    // You can leave experimental empty or remove it entirely
 };
 
 export default nextConfig;
