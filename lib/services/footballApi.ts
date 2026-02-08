@@ -20,7 +20,7 @@ export interface Fixture {
     venue: string;
 }
 
-const BACKEND_URL = "http://localhost:5001/api";
+const BACKEND_URL = "/api";
 
 // Helpers to transform football-data.org structure to our Fixture interface
 const transformToFixture = (match: any): Fixture => {
